@@ -1,0 +1,55 @@
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: rgb(107, 107, 132);
+}
+body.color {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	margin: 0 auto;
+
+	background-color: white;
+	line-height: 1.8;
+}
+
+h1 {
+	font: 1.6em Verdana, Geneva, sans-serif;
+	margin-bottom: .4em;
+	color: rgb(83, 104, 138);
+}
+h2 {
+	font: 3.2em Georgia, "Times New Roman", Times, serif;
+	margin-bottom: .2em;
+}
+h3 {
+	font-size: 1.2em;
+}
+p {
+	margin-bottom: 1em;
+}
+.white{
+    background: white;
+}
+.btn-outline-secondary{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+g.ct-series-a .ct-line {
+  /* Цвет линии */
+  stroke: #A3A4AD;
+  /* Толщина линии */
+  stroke-width: 5px;
+  /* Пунктирная линия по шаблону */
+  stroke-dasharray: 10px 20px;
+}
+g.ct-series-a .ct-point {
+  /* Цвет точек */
+  stroke: #A3A4AD;
+  /* Размер точек */
+  stroke-width: 6px;
+}
